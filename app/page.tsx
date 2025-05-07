@@ -8,13 +8,7 @@ export default function Home() {
       {/* Hero Section with background image and centered text */}
       <section className="relative py-32 md:py-48">
         <div className="absolute inset-0 z-0">
-          <Image
-            src="/placeholder.svg?height=800&width=1600"
-            alt="Synbio Indonesia Hero Background"
-            fill
-            className="object-cover"
-            priority
-          />
+          <Image src="/images/hero.jpg" alt="Synbio Indonesia Hero Background" fill className="object-cover" priority />
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         </div>
         <div className="container relative z-10">
@@ -58,7 +52,7 @@ export default function Home() {
             {/* BIOS */}
             <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg border-2 border-transparent hover:border-[#F2D668]">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=192&width=384" alt="BIOS" fill className="object-cover" />
+                <Image src="/images/bios.jpg" alt="BIOS" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">BIOS</h3>
@@ -75,7 +69,7 @@ export default function Home() {
             {/* SynbioTechFest */}
             <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg border-2 border-transparent hover:border-[#F2D668]">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=192&width=384" alt="SynbioTechFest" fill className="object-cover" />
+                <Image src="/images/synbiotechfest.jpg" alt="SynbioTechFest" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">SynbioTechFest</h3>
@@ -92,7 +86,7 @@ export default function Home() {
             {/* Mentoring */}
             <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg border-2 border-transparent hover:border-[#F2D668]">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=192&width=384" alt="Mentoring" fill className="object-cover" />
+                <Image src="/images/mentoring.jpg" alt="Mentoring" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">Mentoring</h3>
@@ -109,7 +103,7 @@ export default function Home() {
             {/* Synbio Cafe */}
             <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg border-2 border-transparent hover:border-[#F2D668]">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=192&width=384" alt="Synbio Cafe" fill className="object-cover" />
+                <Image src="/images/synbio-cafe.jpg" alt="Synbio Cafe" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">Synbio Cafe</h3>
@@ -126,7 +120,7 @@ export default function Home() {
             {/* MOOC */}
             <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg border-2 border-transparent hover:border-[#F2D668]">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=192&width=384" alt="MOOC" fill className="object-cover" />
+                <Image src="/images/mooc.jpg" alt="MOOC" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">MOOC</h3>
@@ -143,7 +137,7 @@ export default function Home() {
             {/* Local Chapter */}
             <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg border-2 border-transparent hover:border-[#F2D668]">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=192&width=384" alt="Local Chapter" fill className="object-cover" />
+                <Image src="/images/local-chapter.jpg" alt="Local Chapter" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">Local Chapter</h3>
@@ -205,7 +199,7 @@ export default function Home() {
             {/* News Item 1 */}
             <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=192&width=384" alt="News 1" fill className="object-cover" />
+                <Image src="/images/news1.jpg" alt="News 1" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <p className="mb-2 text-sm text-gray-500">April 15, 2025</p>
@@ -226,7 +220,7 @@ export default function Home() {
             {/* News Item 2 */}
             <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=192&width=384" alt="News 2" fill className="object-cover" />
+                <Image src="/images/news2.jpg" alt="News 2" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <p className="mb-2 text-sm text-gray-500">March 28, 2025</p>
@@ -248,7 +242,7 @@ export default function Home() {
             {/* News Item 3 */}
             <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=192&width=384" alt="News 3" fill className="object-cover" />
+                <Image src="/images/news3.jpg" alt="News 3" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <p className="mb-2 text-sm text-gray-500">February 10, 2025</p>

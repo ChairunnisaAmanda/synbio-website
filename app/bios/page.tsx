@@ -456,7 +456,7 @@ export default function BIOSPage() {
 
         {/* CTA Section */}
         <div className="mt-12 text-center">
-          <p className="mb-6 text-gray-700">For more information refer to this guidebook:</p>
+          <p className="mb-6 text-gray-700">Untuk informasi selengkapnya:</p>
           <Link
             href="#"
             className="inline-flex items-center px-8 py-4 font-medium text-white transition-colors rounded-md bg-[#055852] hover:bg-opacity-90 text-lg"

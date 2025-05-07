@@ -31,9 +31,9 @@ export default function Header() {
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
             <span className="sr-only">Synbio Indonesia</span>
-            <div className="relative w-40 h-10">
+            <div className="relative w-48 h-12">
               <Image
-                src="/placeholder.svg?height=40&width=160"
+                src="/images/logo-synbio2.png"
                 alt="Synbio Indonesia Logo"
                 fill
                 className="object-contain"
