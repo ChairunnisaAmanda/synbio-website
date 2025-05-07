@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 32, 84, 75; /* #20544B */
+  --secondary: 242, 214, 104; /* #F2D668 */
+  --background: 251, 254, 255; /* #FBFEFF */
+  --header-bg: 32, 84, 75; /* #F0F9FF - soft blue for header */
+  --accent-yellow: 242, 214, 104; /* #F2D668 */
+
+  /* BIOS specific colors */
+  --bios-primary: 87, 189, 170; /* #57BDAA */
+  --bios-secondary: 5, 88, 82; /* #055852 */
+  --bios-tertiary: 75, 77, 77; /* #4B4D4D */
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+    @apply sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 font-medium text-white transition-colors rounded-md;
+    @apply bg-[#20544B];
+    @apply hover:bg-opacity-90;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 font-medium transition-colors rounded-md;
+    @apply bg-[#F2D668];
+    @apply text-[#20544B];
+    @apply hover:bg-opacity-90;
+  }
+
+  .btn-yellow {
+    @apply px-6 py-3 font-medium transition-colors rounded-md;
+    @apply bg-[#F2D668];
+    @apply text-[#20544B];
+    @apply hover:bg-opacity-90;
+    @apply border-2 border-[#F2D668];
+  }
+
+  .btn-yellow-outline {
+    @apply px-6 py-3 font-medium transition-colors rounded-md;
+    @apply bg-transparent;
+    @apply text-[#F2D668];
+    @apply hover:bg-[#F2D668] hover:bg-opacity-10;
+    @apply border-2 border-[#F2D668];
+  }
+
+  .section-title {
+    @apply mb-6 text-3xl font-bold;
+    @apply text-[#20544B];
+    @apply sm:text-4xl;
+  }
+
+  .section-subtitle {
+    @apply mb-4 text-xl font-semibold;
+    @apply text-[#20544B];
+  }
+
+  .yellow-highlight {
+    @apply bg-[#F2D668] bg-opacity-20 px-2 py-1 rounded;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300;
+    @apply hover:shadow-lg hover:border-[#F2D668] hover:border-2;
+  }
+
+  .timeline-item {
+    @apply relative pl-8 pb-8 border-l-2 border-[#F2D668];
+  }
+
+  .timeline-dot {
+    @apply absolute -left-2.5 w-5 h-5 rounded-full bg-[#F2D668];
+  }
+}
