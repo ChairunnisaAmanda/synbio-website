@@ -209,7 +209,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 text-white bg-[#F2D668]">
+      <section className="py-16 text-black bg-[#F2D668]">
         <div className="container text-center">
           <h2 className="mb-6 text-3xl font-bold sm:text-4xl">Join Our Community</h2>
           <p className="max-w-2xl mx-auto mb-8 text-lg">
