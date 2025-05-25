@@ -288,6 +288,7 @@ export default function AboutPage() {
                       </div>
                     </div>
                     <div>
+                    <div>
                       <h4 className="mb-2 font-semibold text-gray-900">Social Media</h4>
                         <Link href="https://www.instagram.com/synbio.id/" className="text-gray-700 hover:text-[#F2D668]">
                           <span className="sr-only">Instagram</span>
