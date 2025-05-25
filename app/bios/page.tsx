@@ -463,9 +463,7 @@ export default function BIOS2025Page() {
               href="#"
               className="inline-flex items-center px-6 py-3 font-medium transition-colors rounded-md bg-transparent text-white border-2 border-white hover:bg-white hover:bg-opacity-10"
             >
-              <Calendar className="w-5 h-5 mr-2" />
-              Lihat Timeline
-            </Link>
+              
           </div>
         </div>
       </section>
