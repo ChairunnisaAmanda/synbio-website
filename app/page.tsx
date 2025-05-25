@@ -230,7 +230,7 @@ export default function Home() {
       {/* Latest News Section */}
       <section className="py-16 bg-gray-50">
         <div className="container">
-          <h2 className="mb-10 text-3xl font-bold text-center text-[#20544B] sm:text-4xl">Latest News</h2>
+          <h2 className="mb-10 text-3xl font-bold text-center text-[#20544B] sm:text-4xl">Latest Updates</h2>
           <div className="flex justify-center">
               <iframe
                 src="https://www.instagram.com/synbio.id/embed"
