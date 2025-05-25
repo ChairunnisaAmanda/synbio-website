@@ -246,42 +246,7 @@ export default function Home() {
                 allowTransparency={true}
               ></iframe>
             </div>
-        <div className="p-8 bg-white rounded-lg shadow-md">
-            <div className="text-center mb-6">
-              <Link
-                href="https://www.instagram.com/synbio.id/"
-                className="inline-flex items-center text-[#20544B] hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Instagram className="w-6 h-6 mr-2" />
-                <span className="text-xl font-semibold">@synbio.id</span>
-              </Link>
-            </div>
-
-            {/* Instagram Embed */}
-            <div className="flex justify-center">
-              <iframe
-                src="https://www.instagram.com/synbio.id/embed"
-                width="100%"
-                height="750"
-                frameBorder="0"
-                scrolling="no"
-                allowTransparency={true}
-              ></iframe>
-            </div>
-
-            <div className="mt-6 text-center">
-              <Link
-                href="https://www.instagram.com/synbio.id/"
-                className="inline-flex items-center px-6 py-3 font-medium text-[#20544B] transition-colors rounded-md bg-[#F2D668] hover:bg-opacity-90"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View More on Instagram
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>    
+            
       </section>
     </div>
   )
