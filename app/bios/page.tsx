@@ -196,7 +196,7 @@ export default function BIOS2025Page() {
                 </tbody>
               </table>
             </div>
-            <p className="mt-4 text-sm text-gray-600">DP Rp 250.000 diperbolehkan</p>
+            <p className="mt-4 text-sm text-gray-600">*Diperbolehkan untuk DP Rp 250.000 terlebih dahulu</p>
             <p className="text-sm text-gray-600">Pelunasan maksimal 31 Juli 2025</p>
           </section>
 
