@@ -86,7 +86,7 @@ export default function Home() {
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">BIOS</h3>
                 <p className="mb-4 text-gray-700">
-                  Bioinformatics and Synthetic Biology Summer Course for students and professionals.
+                  Bioinformatics and Synthetic Biology Competition for University and High School Students.
                 </p>
                 <Link href="/bios" className="inline-flex items-center text-[#20544B] hover:underline">
                   Learn more
@@ -152,7 +152,7 @@ export default function Home() {
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">Synbio Cafe</h3>
                 <p className="mb-4 text-gray-700">
-                  Casual meetups and discussions about synthetic biology and bioinformatics.
+                  Next-level meetups, filled with curiosity, making life science fun and easy for all.
                 </p>
                 <Link href="#" className="inline-flex items-center text-[#20544B] hover:underline">
                   Learn more
@@ -209,15 +209,15 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 text-white bg-[#20544B]">
+      <section className="py-16 text-white bg-[#F2D668]">
         <div className="container text-center">
           <h2 className="mb-6 text-3xl font-bold sm:text-4xl">Join Our Community</h2>
           <p className="max-w-2xl mx-auto mb-8 text-lg">
             Connect with like-minded individuals passionate about synthetic biology and bioinformatics in Indonesia.
           </p>
           <Link
-            href="https://chat.whatsapp.com/example"
-            className="inline-flex items-center px-6 py-3 font-medium transition-colors rounded-md bg-[#F2D668] text-[#20544B] hover:bg-opacity-90"
+            href="https://chat.whatsapp.com/ELPH5UPRy6S3R1wuoDRwbB?fbclid=PAZXh0bgNhZW0CMTEAAade-zgMm669aEqlVEPltduAkQQVXQWumw2AKdaNW2e6IByjqeHsGNG6O26UKw_aem_17WybwsfdKY-tifvII2dRQ"
+            className="inline-flex items-center px-6 py-3 font-medium transition-colors rounded-md bg-[#20544B] text-[#FBFEFF] hover:bg-opacity-90"
             target="_blank"
             rel="noopener noreferrer"
           >
