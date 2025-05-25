@@ -235,6 +235,17 @@ export default function Home() {
             <InstagramFeed />
           </div>
         </div>
+        {/* Instagram Embed */}
+            <div className="flex justify-center">
+              <iframe
+                src="https://www.instagram.com/synbio.id/embed"
+                width="100%"
+                height="750"
+                frameBorder="0"
+                scrolling="no"
+                allowTransparency={true}
+              ></iframe>
+            </div>
       </section>
     </div>
   )
