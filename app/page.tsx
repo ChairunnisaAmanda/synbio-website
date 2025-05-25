@@ -234,9 +234,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <InstagramFeed />
           </div>
-        </div>
-        {/* Instagram Embed */}
-            <div className="flex justify-center">
+          <div className="flex justify-center">
               <iframe
                 src="https://www.instagram.com/synbio.id/embed"
                 width="100%"
@@ -246,6 +244,9 @@ export default function Home() {
                 allowTransparency={true}
               ></iframe>
             </div>
+        </div>
+        {/* Instagram Embed */}
+            
             
       </section>
     </div>
