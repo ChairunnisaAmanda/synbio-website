@@ -14,7 +14,7 @@ export default function BIOS2025Page() {
             </h2>
             <div className="flex justify-center gap-4 mt-8">
               <Link
-                href="https://forms.google.com/bios-registration"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScyPbzrxdhg8WV4nS6oOnT-iTEVOuIf1oKZmdZUvuSWetLH-Q/viewform"
                 className="inline-flex items-center px-6 py-3 font-medium text-white transition-colors rounded-md bg-[#055852] hover:bg-opacity-90"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -23,7 +23,7 @@ export default function BIOS2025Page() {
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
               <Link
-                href="#"
+                href="https://drive.google.com/file/d/1ViRAYKpU_JqLaXJsIB55FBoz4xAE0DVk/view?usp=drive_link"
                 className="inline-flex items-center px-6 py-3 font-medium text-[#055852] transition-colors rounded-md border-2 border-[#055852] hover:bg-[#055852] hover:bg-opacity-10"
               >
                 <FileText className="w-5 h-5 mr-2" />
@@ -429,7 +429,7 @@ export default function BIOS2025Page() {
           {/* CTA Section */}
           <div className="mt-12 text-center">
             <Link
-              href="#"
+              href="https://drive.google.com/file/d/1ViRAYKpU_JqLaXJsIB55FBoz4xAE0DVk/view?usp=drive_link"
               className="inline-flex items-center px-8 py-4 font-medium text-white transition-colors rounded-md bg-[#055852] hover:bg-opacity-90 text-lg"
               target="_blank"
               rel="noopener noreferrer"
@@ -451,7 +451,7 @@ export default function BIOS2025Page() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
-              href="https://forms.google.com/bios-registration"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScyPbzrxdhg8WV4nS6oOnT-iTEVOuIf1oKZmdZUvuSWetLH-Q/viewform"
               className="inline-flex items-center px-6 py-3 font-medium transition-colors rounded-md bg-white text-[#055852] hover:bg-gray-100"
               target="_blank"
               rel="noopener noreferrer"
