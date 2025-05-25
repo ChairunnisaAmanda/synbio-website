@@ -228,7 +228,7 @@ export default function Home() {
       </section>
 
       {/* Latest News Section */}
-      <section className="py-16 bg-gray-50">
+      <!--<section className="py-16 bg-gray-50">-->
         <div className="container">
           <h2 className="mb-10 text-3xl font-bold text-center text-[#20544B] sm:text-4xl">Latest News</h2>
           <div className="max-w-4xl mx-auto">
