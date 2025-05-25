@@ -12,8 +12,7 @@ export default function AboutPage() {
             About Synbio Indonesia
           </h1>
           <p className="max-w-3xl mx-auto mb-8 text-xl font-medium leading-relaxed text-center text-gray-700">
-            A non-profit organization that focuses on enhancing synthetic biology and bioinformatics enthusiasts in
-            Indonesia.
+            Synthetic Biology Community of Indonesia // Komunitas Biologi Sintetik Indonesia
           </p>
         </div>
       </section>
@@ -74,24 +73,24 @@ export default function AboutPage() {
                 </p>
                 <div className="grid grid-cols-5 gap-4 mt-6">
                   <div className="text-center">
-                    <h3 className="font-bold text-[#20544B]">Sanka</h3>
-                    <p className="text-sm text-gray-600">Co-Founder</p>
+                    <h3 className="font-bold text-[#20544B]">Immanuel Sanka, Ph. D</h3>
+                    <p className="text-sm text-gray-600">ESR in Microfluidics & Bioinformatics, Tallinn University of Technology </p>
                   </div>
                   <div className="text-center">
-                    <h3 className="font-bold text-[#20544B]">Nurul</h3>
-                    <p className="text-sm text-gray-600">Co-Founder</p>
+                    <h3 className="font-bold text-[#20544B]">Nurul Izzati</h3>
+                    <p className="text-sm text-gray-600">Vice Rector for Collaboration and Development of Sumbawa University of Technology</p>
                   </div>
                   <div className="text-center">
-                    <h3 className="font-bold text-[#20544B]">Farhan</h3>
-                    <p className="text-sm text-gray-600">Co-Founder</p>
+                    <h3 className="font-bold text-[#20544B]">Muhammad Farhan Maulana</h3>
+                    <p className="text-sm text-gray-600">Manager of BizOps at #1 SEA Edtech, Fellow of Global Bio Summit of MIT</p>
                   </div>
                   <div className="text-center">
-                    <h3 className="font-bold text-[#20544B]">Aulia</h3>
-                    <p className="text-sm text-gray-600">Co-Founder</p>
+                    <h3 className="font-bold text-[#20544B]">Aulia Reski Widyaningrum</h3>
+                    <p className="text-sm text-gray-600">Lab Analyst at RSUI, Government-Alumni Network for Universitas Indonesia</p>
                   </div>
                   <div className="text-center">
-                    <h3 className="font-bold text-[#20544B]">Alfi</h3>
-                    <p className="text-sm text-gray-600">Co-Founder</p>
+                    <h3 className="font-bold text-[#20544B]">Alfiatun Hasanah</h3>
+                    <p className="text-sm text-gray-600">Graphic Designer at Biotech-based Company</p>
                   </div>
                 </div>
               </div>
