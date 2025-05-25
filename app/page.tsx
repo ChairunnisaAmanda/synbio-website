@@ -207,63 +207,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-{/* Latest News Section with Instagram Feed */}
-      <section className="py-16">
-        <div className="container">
-          <div className="flex items-center justify-between mb-8">
-            <h2 className="mb-0 text-3xl font-bold text-[#20544B] sm:text-4xl">Latest News</h2>
-            <Link
-              href="https://www.instagram.com/synbio.id/"
-              className="inline-flex items-center text-[#20544B] hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Follow us on Instagram
-              <Instagram className="w-4 h-4 ml-1" />
-            </Link>
-          </div>
 
-          {/* Instagram Feed */}
-          <div className="p-8 bg-white rounded-lg shadow-md">
-            <div className="text-center mb-6">
-              <Link
-                href="https://www.instagram.com/synbio.id/"
-                className="inline-flex items-center text-[#20544B] hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Instagram className="w-6 h-6 mr-2" />
-                <span className="text-xl font-semibold">@synbio.id</span>
-              </Link>
-            </div>
-
-            {/* Instagram Embed */}
-            <div className="flex justify-center">
-              <iframe
-                src="https://www.instagram.com/synbio.id/embed"
-                width="100%"
-                height="750"
-                frameBorder="0"
-                scrolling="no"
-                allowTransparency={true}
-              ></iframe>
-            </div>
-
-            <div className="mt-6 text-center">
-              <Link
-                href="https://www.instagram.com/synbio.id/"
-                className="inline-flex items-center px-6 py-3 font-medium text-[#20544B] transition-colors rounded-md bg-[#F2D668] hover:bg-opacity-90"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View More on Instagram
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-      
       {/* CTA Section */}
       <section className="py-16 text-white bg-[#20544B]">
         <div className="container text-center">
