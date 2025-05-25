@@ -64,23 +64,15 @@ export default function Footer() {
           <div>
             <h2 className="mb-4 text-lg font-semibold">Connect With Us</h2>
             <div className="flex space-x-4">
-              <Link href="https://facebook.com" className="text-gray-300 hover:text-[#F2D668]">
-                <span className="sr-only">Facebook</span>
-                <Facebook className="w-5 h-5" />
-              </Link>
-              <Link href="https://twitter.com" className="text-gray-300 hover:text-[#F2D668]">
-                <span className="sr-only">Twitter</span>
-                <Twitter className="w-5 h-5" />
-              </Link>
-              <Link href="https://instagram.com" className="text-gray-300 hover:text-[#F2D668]">
+              <Link href="https://www.instagram.com/synbio.id/" className="text-gray-300 hover:text-[#F2D668]">
                 <span className="sr-only">Instagram</span>
                 <Instagram className="w-5 h-5" />
               </Link>
-              <Link href="https://linkedin.com" className="text-gray-300 hover:text-[#F2D668]">
+              <Link href="https://www.linkedin.com/company/synbio-indonesia/posts/?feedView=all" className="text-gray-300 hover:text-[#F2D668]">
                 <span className="sr-only">LinkedIn</span>
                 <Linkedin className="w-5 h-5" />
               </Link>
-              <Link href="mailto:info@synbio.id" className="text-gray-300 hover:text-[#F2D668]">
+              <Link href="mailto:info.synbio@gmail.com" className="text-gray-300 hover:text-[#F2D668]">
                 <span className="sr-only">Email</span>
                 <Mail className="w-5 h-5" />
               </Link>
