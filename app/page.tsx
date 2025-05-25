@@ -21,7 +21,7 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center text-white">
             <h1 className="mb-4 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">Synbio Indonesia</h1>
             <h2 className="mb-4 text-2xl font-semibold md:text-3xl">
-              Empowering, connecting life-scientists & biotechnologists in Indonesia
+              Empowering and Connecting Indonesian Life Scientists
             </h2>
             <p className="mb-8 text-lg font-medium leading-relaxed">
               A non-profit organization dedicated to advancing synthetic biology and bioinformatics in Indonesia.
