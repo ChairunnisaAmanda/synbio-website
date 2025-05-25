@@ -231,9 +231,6 @@ export default function Home() {
       <section className="py-16 bg-gray-50">
         <div className="container">
           <h2 className="mb-10 text-3xl font-bold text-center text-[#20544B] sm:text-4xl">Latest News</h2>
-          <div className="max-w-4xl mx-auto">
-            <InstagramFeed />
-          </div>
           <div className="flex justify-center">
               <iframe
                 src="https://www.instagram.com/synbio.id/embed"
@@ -243,9 +240,20 @@ export default function Home() {
                 scrolling="no"
                 allowTransparency={true}
               ></iframe>
+          </div>
+          <div className="mt-6 text-center">
+              <Link
+                href="https://www.instagram.com/synbio.id/"
+                className="inline-flex items-center px-6 py-3 font-medium text-[#20544B] transition-colors rounded-md bg-[#F2D668] hover:bg-opacity-90"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View More on Instagram
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Link>
             </div>
         </div>
-        {/* Instagram Embed */}
+        
             
             
       </section>
