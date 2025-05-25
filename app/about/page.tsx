@@ -289,16 +289,11 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <h4 className="mb-2 font-semibold text-gray-900">Social Media</h4>
-                      <div className="flex space-x-4">
-                        <Link href="https://twitter.com" className="text-gray-700 hover:text-[#F2D668]">
-                          <span className="sr-only">Twitter</span>
-                          <Twitter className="w-5 h-5" />
-                        </Link>
-                        <Link href="https://instagram.com" className="text-gray-700 hover:text-[#F2D668]">
+                        <Link href="https://www.instagram.com/synbio.id/" className="text-gray-700 hover:text-[#F2D668]">
                           <span className="sr-only">Instagram</span>
                           <Instagram className="w-5 h-5" />
                         </Link>
-                        <Link href="https://linkedin.com" className="text-gray-700 hover:text-[#F2D668]">
+                        <Link href="https://www.linkedin.com/company/synbio-indonesia/posts/?feedView=all" className="text-gray-700 hover:text-[#F2D668]">
                           <span className="sr-only">LinkedIn</span>
                           <Linkedin className="w-5 h-5" />
                         </Link>
