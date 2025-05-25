@@ -27,7 +27,7 @@ export default function Home() {
               A non-profit organization dedicated to advancing synthetic biology and bioinformatics in Indonesia.
             </p>
             <Link
-              href="https://chat.whatsapp.com/example"
+              href="https://chat.whatsapp.com/ELPH5UPRy6S3R1wuoDRwbB?fbclid=PAZXh0bgNhZW0CMTEAAade-zgMm669aEqlVEPltduAkQQVXQWumw2AKdaNW2e6IByjqeHsGNG6O26UKw_aem_17WybwsfdKY-tifvII2dRQ"
               className="inline-flex items-center px-6 py-3 font-medium text-[#20544B] transition-colors rounded-md bg-[#F2D668] hover:bg-opacity-90"
               target="_blank"
               rel="noopener noreferrer"
