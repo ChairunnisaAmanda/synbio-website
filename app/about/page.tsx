@@ -11,8 +11,8 @@ export default function AboutPage() {
           <h1 className="mb-6 text-4xl font-bold tracking-tight text-center text-[#20544B] md:text-5xl">
             About Synbio Indonesia
           </h1>
-          <p className="max-w-3xl mx-auto mb-8 text-xl font-medium leading-relaxed text-center text-gray-700">
-            Synthetic Biology Community of Indonesia // Komunitas Biologi Sintetik Indonesia
+          <p className="max-w-3xl mx-auto mb-8 text-xl font-bold leading-relaxed text-center text-gray-700">
+            Synthetic Biology Community of Indonesia
           </p>
         </div>
       </section>
@@ -103,7 +103,9 @@ export default function AboutPage() {
       <section className="py-16 bg-gray-50">
         <div className="container">
           <h2 className="mb-12 text-3xl font-bold text-center text-[#20544B]">Our Team</h2>
-
+          <p className="max-w-3xl mx-auto mb-8 text-xl font-bold leading-relaxed text-center text-gray-700">
+            Executive Committee 2025
+          </p>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {/* Directors */}
             <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
