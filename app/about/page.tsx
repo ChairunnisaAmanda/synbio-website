@@ -2,89 +2,6 @@ import Image from "next/image"
 import Link from "next/link"
 import { Mail, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
 
-// Sample team data with placeholder names
-const founders = [
-  {
-    id: 1,
-    name: "John Doe",
-    role: "Co-Founder & President",
-    image: "/placeholder.svg?height=200&width=200",
-    bio: "PhD in Synthetic Biology from University A. Passionate about advancing synthetic biology in Indonesia.",
-  },
-  {
-    id: 2,
-    name: "Jane Smith",
-    role: "Co-Founder & Scientific Director",
-    image: "/placeholder.svg?height=200&width=200",
-    bio: "Researcher in bioinformatics with expertise in genomic data analysis and computational biology.",
-  },
-  {
-    id: 3,
-    name: "Alex Johnson",
-    role: "Co-Founder & Education Director",
-    image: "/placeholder.svg?height=200&width=200",
-    bio: "Educator with a passion for making synthetic biology accessible to students across Indonesia.",
-  },
-  {
-    id: 4,
-    name: "Sarah Williams",
-    role: "Co-Founder & Community Director",
-    image: "/placeholder.svg?height=200&width=200",
-    bio: "Biotechnology expert focused on building and nurturing the synthetic biology community in Indonesia.",
-  },
-]
-
-const advisors = [
-  {
-    id: 1,
-    name: "Prof. John Smith",
-    role: "Scientific Advisor",
-    institution: "University X",
-    image: "/placeholder.svg?height=200&width=200",
-  },
-  {
-    id: 2,
-    name: "Dr. Emily Brown",
-    role: "Industry Advisor",
-    institution: "BioTech Company",
-    image: "/placeholder.svg?height=200&width=200",
-  },
-  {
-    id: 3,
-    name: "Prof. Michael Johnson",
-    role: "Education Advisor",
-    institution: "Institute Y",
-    image: "/placeholder.svg?height=200&width=200",
-  },
-]
-
-const committee = [
-  {
-    id: 1,
-    name: "Robert Davis",
-    role: "Program Manager",
-    image: "/placeholder.svg?height=200&width=200",
-  },
-  {
-    id: 2,
-    name: "Lisa Wilson",
-    role: "Communications Director",
-    image: "/placeholder.svg?height=200&width=200",
-  },
-  {
-    id: 3,
-    name: "David Miller",
-    role: "Events Coordinator",
-    image: "/placeholder.svg?height=200&width=200",
-  },
-  {
-    id: 4,
-    name: "Jennifer Taylor",
-    role: "Technology Officer",
-    image: "/placeholder.svg?height=200&width=200",
-  },
-]
-
 export default function AboutPage() {
   return (
     <div>
@@ -107,8 +24,8 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
             <div className="relative h-64 overflow-hidden rounded-lg md:h-auto">
               <Image
-                src="/placeholder.svg?height=400&width=600"
-                alt="Synbio Indonesia Team"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-head-O2ldPqLffKEyBhk523srGYueDv2NyE.png"
+                alt="Synbio Indonesia Activities"
                 fill
                 className="object-cover"
               />
@@ -130,9 +47,52 @@ export default function AboutPage() {
                   Our community has grown to include students, researchers, professionals, and enthusiasts from across
                   Indonesia, all united by a passion for synthetic biology and bioinformatics.
                 </p>
-                <div className="p-4 mt-6 rounded-lg bg-[#F2D668] bg-opacity-20">
-                  <h3 className="mb-2 text-xl font-bold text-[#20544B]">Fun Fact</h3>
-                  <p className="text-gray-700">Founders never meet in full team yet! :D</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Founders Section */}
+      <section className="py-16 bg-[#f5f9f8]">
+        <div className="container">
+          <h2 className="mb-10 text-3xl font-bold text-center text-[#20544B]">Our Founders</h2>
+          <div className="max-w-4xl mx-auto">
+            <div className="overflow-hidden bg-white rounded-lg shadow-lg">
+              <div className="relative h-96">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-founders-PtKpdcjw4Lr63FoDHnwwLIy45Ffnxy.png"
+                  alt="Synbio Indonesia Founders"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="p-6 text-center">
+                <p className="mb-4 text-lg text-gray-700">
+                  Meet the visionaries who established Synbio Indonesia in 2019, bringing together their passion and
+                  expertise to create a community for synthetic biology and bioinformatics enthusiasts across Indonesia.
+                </p>
+                <div className="grid grid-cols-5 gap-4 mt-6">
+                  <div className="text-center">
+                    <h3 className="font-bold text-[#20544B]">Sanka</h3>
+                    <p className="text-sm text-gray-600">Co-Founder</p>
+                  </div>
+                  <div className="text-center">
+                    <h3 className="font-bold text-[#20544B]">Nurul</h3>
+                    <p className="text-sm text-gray-600">Co-Founder</p>
+                  </div>
+                  <div className="text-center">
+                    <h3 className="font-bold text-[#20544B]">Farhan</h3>
+                    <p className="text-sm text-gray-600">Co-Founder</p>
+                  </div>
+                  <div className="text-center">
+                    <h3 className="font-bold text-[#20544B]">Aulia</h3>
+                    <p className="text-sm text-gray-600">Co-Founder</p>
+                  </div>
+                  <div className="text-center">
+                    <h3 className="font-bold text-[#20544B]">Alfi</h3>
+                    <p className="text-sm text-gray-600">Co-Founder</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -140,73 +100,171 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section - Founders */}
+      {/* Team Section - Position-image layout */}
       <section className="py-16 bg-gray-50">
         <div className="container">
-          <h2 className="mb-12 text-3xl font-bold text-center text-[#20544B]">Our Founders</h2>
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {founders.map((founder) => (
-              <div
-                key={founder.id}
-                className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg border-2 border-transparent hover:border-[#F2D668]"
-              >
-                <div className="relative h-64">
-                  <Image src={founder.image || "/placeholder.svg"} alt={founder.name} fill className="object-cover" />
-                </div>
-                <div className="p-6">
-                  <h3 className="mb-1 text-xl font-bold text-[#20544B]">{founder.name}</h3>
-                  <p className="mb-3 text-sm text-gray-500">{founder.role}</p>
-                  <p className="text-gray-700">{founder.bio}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+          <h2 className="mb-12 text-3xl font-bold text-center text-[#20544B]">Our Team</h2>
 
-      {/* Team Section - Advisory */}
-      <section className="py-16">
-        <div className="container">
-          <h2 className="mb-12 text-3xl font-bold text-center text-[#20544B]">Advisory Team</h2>
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
-            {advisors.map((advisor) => (
-              <div
-                key={advisor.id}
-                className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg border-2 border-transparent hover:border-[#F2D668]"
-              >
-                <div className="relative h-64">
-                  <Image src={advisor.image || "/placeholder.svg"} alt={advisor.name} fill className="object-cover" />
-                </div>
-                <div className="p-6">
-                  <h3 className="mb-1 text-xl font-bold text-[#20544B]">{advisor.name}</h3>
-                  <p className="mb-1 text-sm text-gray-700">{advisor.role}</p>
-                  <p className="text-sm text-gray-500">{advisor.institution}</p>
-                </div>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {/* Directors */}
+            <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
+              <div className="relative h-64">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-directors-RBXoC35TjHif6yTbdkfZGc6o6R9OBq.png"
+                  alt="Directors"
+                  fill
+                  className="object-cover"
+                />
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
+              <div className="p-6">
+                <h3 className="mb-2 text-xl font-bold text-[#20544B]">Directors</h3>
+                <p className="text-gray-700">Leading our organization's strategic direction and growth.</p>
+              </div>
+            </div>
 
-      {/* Team Section - Executive Committee */}
-      <section className="py-16 bg-gray-50">
-        <div className="container">
-          <h2 className="mb-12 text-3xl font-bold text-center text-[#20544B]">Executive Committee</h2>
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4">
-            {committee.map((member) => (
-              <div
-                key={member.id}
-                className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg border-2 border-transparent hover:border-[#F2D668]"
-              >
-                <div className="relative h-64">
-                  <Image src={member.image || "/placeholder.svg"} alt={member.name} fill className="object-cover" />
-                </div>
-                <div className="p-6">
-                  <h3 className="mb-1 text-xl font-bold text-[#20544B]">{member.name}</h3>
-                  <p className="text-sm text-gray-700">{member.role}</p>
-                </div>
+            {/* Managers */}
+            <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
+              <div className="relative h-64">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-managers-i93hEdju7zvwGjlbhClVcHc43g1vkM.png"
+                  alt="Managers"
+                  fill
+                  className="object-cover"
+                />
               </div>
-            ))}
+              <div className="p-6">
+                <h3 className="mb-2 text-xl font-bold text-[#20544B]">Managers</h3>
+                <p className="text-gray-700">Overseeing day-to-day operations and program implementation.</p>
+              </div>
+            </div>
+
+            {/* SynbioTechFest */}
+            <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
+              <div className="relative h-64">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-stf-6R559FvUXypsOp5Stl211MBHLpDTeA.png"
+                  alt="SynbioTechFest Team"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="mb-2 text-xl font-bold text-[#20544B]">SynbioTechFest Team</h3>
+                <p className="text-gray-700">Organizing our annual festival for biotech enthusiasts.</p>
+              </div>
+            </div>
+
+            {/* Mentoring */}
+            <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
+              <div className="relative h-64">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-mentoring-KrtZIls5EObDXXLcBJKTUXJDwyziCs.png"
+                  alt="Mentoring Team"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="mb-2 text-xl font-bold text-[#20544B]">Mentoring Team</h3>
+                <p className="text-gray-700">Connecting experts with aspiring scientists and researchers.</p>
+              </div>
+            </div>
+
+            {/* BIOS */}
+            <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
+              <div className="relative h-64">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-bios-7vA5At9Ttoq8YK2vMBVwk1mpGSqY8N.png"
+                  alt="BIOS Team"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="mb-2 text-xl font-bold text-[#20544B]">BIOS Team</h3>
+                <p className="text-gray-700">Running our bioinformatics and synthetic biology summer course.</p>
+              </div>
+            </div>
+
+            {/* MOOC */}
+            <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
+              <div className="relative h-64">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-mooc-AGPHYjHempad3BZjRxry1uYB2BukrY.png"
+                  alt="MOOC Team"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="mb-2 text-xl font-bold text-[#20544B]">MOOC Team</h3>
+                <p className="text-gray-700">Developing online courses for accessible learning in synthetic biology.</p>
+              </div>
+            </div>
+
+            {/* Finance */}
+            <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
+              <div className="relative h-64">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-finance-Cm9qrxhJifqm2unYb9Dc2dUtCn4FZO.png"
+                  alt="Finance Team"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="mb-2 text-xl font-bold text-[#20544B]">Finance Team</h3>
+                <p className="text-gray-700">Managing our organization's financial resources and sustainability.</p>
+              </div>
+            </div>
+
+            {/* Local Chapter */}
+            <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
+              <div className="relative h-64">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-local-AZwNMHrahJiRovAcL6kM2rPc5tprJe.png"
+                  alt="Local Chapter Team"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="mb-2 text-xl font-bold text-[#20544B]">Local Chapter Team</h3>
+                <p className="text-gray-700">Coordinating regional communities across Indonesia.</p>
+              </div>
+            </div>
+
+            {/* Science Communication */}
+            <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
+              <div className="relative h-64">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-scicomm-t55bKWBGaZIdd2chdqXoMBucTrskqp.png"
+                  alt="Science Communication Team"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="mb-2 text-xl font-bold text-[#20544B]">Science Communication Team</h3>
+                <p className="text-gray-700">Sharing our work and knowledge with the wider public.</p>
+              </div>
+            </div>
+
+            {/* Synbio Cafe */}
+            <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg">
+              <div className="relative h-64">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-cafe-N9njhuwLT7SFlRwg7jglV39TxLJpYH.png"
+                  alt="Synbio Cafe Team"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="mb-2 text-xl font-bold text-[#20544B]">Synbio Cafe Team</h3>
+                <p className="text-gray-700">Organizing casual meetups and discussions for our community.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
