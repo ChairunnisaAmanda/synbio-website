@@ -117,7 +117,7 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">Directors</h3>
-                <p className="text-gray-700">Leading our organization's strategic direction and growth.</p>
+                <p className="text-gray-700">Core leadership team steering vision, strategy, and growth across Synbio ID initiatives.</p>
               </div>
             </div>
 
@@ -149,7 +149,7 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">SynbioTechFest Team</h3>
-                <p className="text-gray-700">Organizing our annual festival for biotech enthusiasts.</p>
+                <p className="text-gray-700">Organizing our annual festival for biotech and synbio enthusiasts.</p>
               </div>
             </div>
 
@@ -181,7 +181,7 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">BIOS Team</h3>
-                <p className="text-gray-700">Running our bioinformatics and synthetic biology summer course.</p>
+                <p className="text-gray-700">Running our annual Bioinformatics and Synthetic Biology competition.</p>
               </div>
             </div>
 
@@ -197,7 +197,7 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">MOOC Team</h3>
-                <p className="text-gray-700">Developing online courses for accessible learning in synthetic biology.</p>
+                <p className="text-gray-700">Developing online courses for accessible learning in synthetic biology and bioinformatics.</p>
               </div>
             </div>
 
@@ -213,7 +213,7 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">Finance Team</h3>
-                <p className="text-gray-700">Managing our organization's financial resources and sustainability.</p>
+                <p className="text-gray-700">Enabling organizational's growth through efficient systems, financial strategy, and scalable operations.</p>
               </div>
             </div>
 
@@ -229,7 +229,7 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">Local Chapter Team</h3>
-                <p className="text-gray-700">Coordinating regional communities across Indonesia.</p>
+                <p className="text-gray-700">Coordinating regional communities across Indonesia for collaboration and events.</p>
               </div>
             </div>
 
@@ -245,7 +245,7 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">Science Communication Team</h3>
-                <p className="text-gray-700">Sharing our work and knowledge with the wider public.</p>
+                <p className="text-gray-700">Empowering communities through engaging stories in biotech, synbio, and bioinformatics.</p>
               </div>
             </div>
 
@@ -282,18 +282,14 @@ export default function AboutPage() {
                       <Mail className="w-5 h-5 mr-3 text-[#F2D668]" />
                       <div>
                         <h4 className="font-semibold text-gray-900">Email</h4>
-                        <a href="mailto:info@synbio.id" className="text-gray-700 hover:text-[#20544B]">
-                          info@synbio.id
+                        <a href="mailto:info.synbio@gmail.com" className="text-gray-700 hover:text-[#20544B]">
+                          info.synbio@gmail.com
                         </a>
                       </div>
                     </div>
                     <div>
                       <h4 className="mb-2 font-semibold text-gray-900">Social Media</h4>
                       <div className="flex space-x-4">
-                        <Link href="https://facebook.com" className="text-gray-700 hover:text-[#F2D668]">
-                          <span className="sr-only">Facebook</span>
-                          <Facebook className="w-5 h-5" />
-                        </Link>
                         <Link href="https://twitter.com" className="text-gray-700 hover:text-[#F2D668]">
                           <span className="sr-only">Twitter</span>
                           <Twitter className="w-5 h-5" />
