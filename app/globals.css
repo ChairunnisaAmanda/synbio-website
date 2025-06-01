@@ -19,6 +19,17 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Ensure all buttons have rounded corners */
+  button {
+    @apply rounded-md;
+  }
+
+  /* Ensure all links styled as buttons have rounded corners */
+  a[class*="btn"],
+  a[class*="button"] {
+    @apply rounded-md;
+  }
 }
 
 @layer components {
@@ -68,7 +79,7 @@
   }
 
   .yellow-highlight {
-    @apply bg-[#F2D668] bg-opacity-20 px-2 py-1 rounded;
+    @apply bg-[#F2D668] bg-opacity-20 px-2 py-1 rounded-md;
   }
 
   .card-hover {
