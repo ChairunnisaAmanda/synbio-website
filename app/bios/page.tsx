@@ -460,7 +460,7 @@ export default function BIOS2025Page() {
               <ArrowRight className="w-4 h-4 ml-2" />
             </Link>
             <Link
-              href="#"
+              href="https://www.instagram.com/synbio.id/"
               className="inline-flex items-center px-6 py-3 font-medium transition-colors rounded-md bg-transparent text-white border-2 border-white hover:bg-white hover:bg-opacity-10"
             >
               Learn More

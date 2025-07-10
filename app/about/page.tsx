@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Mail, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { Mail, Instagram, Linkedin } from "lucide-react"
+import ContactForm from "@/components/contact-form"
 
 export default function AboutPage() {
   return (
@@ -74,19 +75,27 @@ export default function AboutPage() {
                 <div className="grid grid-cols-5 gap-4 mt-6">
                   <div className="text-center">
                     <h3 className="font-bold text-[#20544B]">Immanuel Sanka, Ph. D</h3>
-                    <p className="text-sm text-gray-600">ESR in Microfluidics & Bioinformatics, Tallinn University of Technology </p>
+                    <p className="text-sm text-gray-600">
+                      ESR in Microfluidics & Bioinformatics, Tallinn University of Technology{" "}
+                    </p>
                   </div>
                   <div className="text-center">
                     <h3 className="font-bold text-[#20544B]">Nurul Izzati</h3>
-                    <p className="text-sm text-gray-600">Vice Rector for Collaboration and Development of Sumbawa University of Technology</p>
+                    <p className="text-sm text-gray-600">
+                      Vice Rector for Collaboration and Development of Sumbawa University of Technology
+                    </p>
                   </div>
                   <div className="text-center">
                     <h3 className="font-bold text-[#20544B]">Muhammad Farhan Maulana</h3>
-                    <p className="text-sm text-gray-600">Manager of BizOps at #1 SEA Edtech, Fellow of Global Bio Summit of MIT</p>
+                    <p className="text-sm text-gray-600">
+                      Manager of BizOps at #1 SEA Edtech, Fellow of Global Bio Summit of MIT
+                    </p>
                   </div>
                   <div className="text-center">
                     <h3 className="font-bold text-[#20544B]">Aulia Reski Widyaningrum</h3>
-                    <p className="text-sm text-gray-600">Lab Analyst at RSUI, Government-Alumni Network for Universitas Indonesia</p>
+                    <p className="text-sm text-gray-600">
+                      Lab Analyst at RSUI, Government-Alumni Network for Universitas Indonesia
+                    </p>
                   </div>
                   <div className="text-center">
                     <h3 className="font-bold text-[#20544B]">Alfiatun Hasanah</h3>
@@ -119,7 +128,9 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">Directors</h3>
-                <p className="text-gray-700">Core leadership team steering vision, strategy, and growth across Synbio ID initiatives.</p>
+                <p className="text-gray-700">
+                  Core leadership team steering vision, strategy, and growth across Synbio ID initiatives.
+                </p>
               </div>
             </div>
 
@@ -199,7 +210,9 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">MOOC Team</h3>
-                <p className="text-gray-700">Developing online courses for accessible learning in synthetic biology and bioinformatics.</p>
+                <p className="text-gray-700">
+                  Developing online courses for accessible learning in synthetic biology and bioinformatics.
+                </p>
               </div>
             </div>
 
@@ -215,7 +228,10 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">Finance Team</h3>
-                <p className="text-gray-700">Enabling organizational's growth through efficient systems, financial strategy, and scalable operations.</p>
+                <p className="text-gray-700">
+                  Enabling organizational's growth through efficient systems, financial strategy, and scalable
+                  operations.
+                </p>
               </div>
             </div>
 
@@ -231,7 +247,9 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">Local Chapter Team</h3>
-                <p className="text-gray-700">Coordinating regional communities across Indonesia for collaboration and events.</p>
+                <p className="text-gray-700">
+                  Coordinating regional communities across Indonesia for collaboration and events.
+                </p>
               </div>
             </div>
 
@@ -247,7 +265,9 @@ export default function AboutPage() {
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-xl font-bold text-[#20544B]">Science Communication Team</h3>
-                <p className="text-gray-700">Empowering communities through engaging stories in biotech, synbio, and bioinformatics.</p>
+                <p className="text-gray-700">
+                  Empowering communities through engaging stories in biotech, synbio, and bioinformatics.
+                </p>
               </div>
             </div>
 
@@ -274,79 +294,61 @@ export default function AboutPage() {
       <section id="contact" className="py-16">
         <div className="container">
           <h2 className="mb-12 text-3xl font-bold text-center text-[#20544B]">Contact Us</h2>
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div className="p-8 bg-white rounded-lg shadow-md">
-              <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+              <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
                 <div>
-                  <h3 className="mb-4 text-xl font-bold text-[#20544B]">Get in Touch</h3>
-                  <div className="space-y-4">
+                  <h3 className="mb-6 text-xl font-bold text-[#20544B]">Get in Touch</h3>
+                  <div className="space-y-6">
                     <div className="flex items-start">
-                      <Mail className="w-5 h-5 mr-3 text-[#F2D668]" />
+                      <Mail className="w-5 h-5 mr-3 text-[#F2D668] mt-1 flex-shrink-0" />
                       <div>
-                        <h4 className="font-semibold text-gray-900">Email</h4>
-                        <a href="mailto:info.synbio@gmail.com" className="text-gray-700 hover:text-[#20544B]">
+                        <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
+                        <a
+                          href="mailto:info.synbio@gmail.com"
+                          className="text-gray-700 hover:text-[#20544B] transition-colors"
+                        >
                           info.synbio@gmail.com
                         </a>
                       </div>
                     </div>
+
                     <div>
-                    <div>
-                      <h4 className="mb-2 font-semibold text-gray-900">Social Media</h4>
-                        <Link href="https://www.instagram.com/synbio.id/" className="text-gray-700 hover:text-[#F2D668]">
-                          <span className="sr-only">Instagram</span>
-                          <Instagram className="w-5 h-5" />
+                      <h4 className="font-semibold text-gray-900 mb-3">Follow Us</h4>
+                      <div className="flex space-x-4">
+                        <Link
+                          href="https://www.instagram.com/synbio.id/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center px-4 py-2 text-white bg-gradient-to-r from-purple-500 to-pink-500 rounded-md hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105"
+                        >
+                          <Instagram className="w-5 h-5 mr-2" />
+                          <span className="font-medium">Instagram</span>
                         </Link>
-                        <Link href="https://www.linkedin.com/company/synbio-indonesia/posts/?feedView=all" className="text-gray-700 hover:text-[#F2D668]">
-                          <span className="sr-only">LinkedIn</span>
-                          <Linkedin className="w-5 h-5" />
+                        <Link
+                          href="https://www.linkedin.com/company/synbio-indonesia/posts/?feedView=all"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center px-4 py-2 text-white bg-[#0077B5] rounded-md hover:bg-[#005885] transition-all duration-300 transform hover:scale-105"
+                        >
+                          <Linkedin className="w-5 h-5 mr-2" />
+                          <span className="font-medium">LinkedIn</span>
                         </Link>
                       </div>
                     </div>
+
+                    <div className="pt-4">
+                      <p className="text-gray-600 text-sm leading-relaxed">
+                        Have questions about our programs, want to collaborate, or interested in joining our community?
+                        We'd love to hear from you! Send us a message and we'll get back to you as soon as possible.
+                      </p>
+                    </div>
                   </div>
                 </div>
+
                 <div>
-                  <h3 className="mb-4 text-xl font-bold text-[#20544B]">Send a Message</h3>
-                  <form className="space-y-4">
-                    <div>
-                      <label htmlFor="name" className="block mb-1 text-sm font-medium text-gray-700">
-                        Name
-                      </label>
-                      <input
-                        type="text"
-                        id="name"
-                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#20544B] focus:border-transparent"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="email" className="block mb-1 text-sm font-medium text-gray-700">
-                        Email
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#20544B] focus:border-transparent"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="message" className="block mb-1 text-sm font-medium text-gray-700">
-                        Message
-                      </label>
-                      <textarea
-                        id="message"
-                        rows={4}
-                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#20544B] focus:border-transparent"
-                        required
-                      ></textarea>
-                    </div>
-                    <button
-                      type="submit"
-                      className="w-full px-6 py-3 font-medium text-white transition-colors rounded-md bg-[#20544B] hover:bg-opacity-90"
-                    >
-                      Send Message
-                    </button>
-                  </form>
+                  <h3 className="mb-6 text-xl font-bold text-[#20544B]">Send a Message</h3>
+                  <ContactForm />
                 </div>
               </div>
             </div>
